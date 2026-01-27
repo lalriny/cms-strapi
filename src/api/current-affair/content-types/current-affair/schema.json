@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "current_affairs",
+  "info": {
+    "singularName": "current-affair",
+    "pluralName": "current-affairs",
+    "displayName": "Current-Affairs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "date": {
+      "type": "date"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "National",
+        "International",
+        "Economy",
+        "Science & Technology",
+        "Environment",
+        "Defence",
+        "Sports",
+        "Awards",
+        "Culture",
+        "Important Days",
+        "Books & Authors"
+      ]
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

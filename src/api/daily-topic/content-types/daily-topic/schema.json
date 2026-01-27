@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daily_topics",
+  "info": {
+    "singularName": "daily-topic",
+    "pluralName": "daily-topics",
+    "displayName": "Daily-Topics"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "G.K",
+        "Science",
+        "English",
+        "Maths"
+      ]
+    },
+    "isFeatured": {
+      "type": "boolean"
+    }
+  }
+}

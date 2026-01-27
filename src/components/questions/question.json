@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_questions_questions",
+  "info": {
+    "displayName": "question"
+  },
+  "options": {},
+  "attributes": {
+    "questionText": {
+      "type": "text"
+    },
+    "optionA": {
+      "type": "string"
+    },
+    "optionB": {
+      "type": "string"
+    },
+    "optionC": {
+      "type": "string"
+    },
+    "optionD": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  },
+  "config": {}
+}
